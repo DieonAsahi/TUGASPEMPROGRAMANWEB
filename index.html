@@ -6,16 +6,16 @@
     <title>Simple Business Website</title>
 </head>
 <body>
-    <div class="header">
+    <section class="header">
         <h1>Jual Beli Musang</h1>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-    </div>
+    </section>
 
-    <div class="content">
+    <section class="content">
         <h2>Selamat Datang di Bisnis Kami!</h2>
             <p>Kami menawarkan produk dan layanan berkualitas untuk memenuhi kebutuhan Anda. Jelajahi lebih lanjut untuk
                 mengetahui apa yang kami tawarkan.</p>
@@ -26,13 +26,50 @@
                     <li>CASH</li>
                     <li>SHOPEPAY</li>
                 </ol>
-    </div>
+    </section>
 
-    <div class="footer">
+    
+    <section class="Layanan">
+        <h2>Layanan Kami</h2>
+        <p>Kami memberikan layanan 25 jam tanpa istirahat, dapat mendengarkan keluhan dan bacotan anda anda semua</p>
+        <table border="1" wid="500px" height="200px">
+            <tr>
+                <th>Nama</th>
+                <th>Deskripsi</th>
+                <th>Harga</th>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Masukan Nama"></td>
+                <td><input type="text" placeholder="Masukan Deskripsi"></td>
+                <td><input type="number" placeholder="Masukan Harga"></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Masukan Nama"></td>
+                <td><input type="text" placeholder="Masukan Deskripsi"></td>
+                <td><input type="number" placeholder="Masukan Harga"></td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="Kontak">
+        <h2>Kontak Kami</h2>
+        <form action="#" method="post">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input type="submit" value="Kirim">
+        </form>
+    </section>
+
+
+    <footer>
         <p>2024 Jual Beli Musang. All Rights Reserved.</p>
             <a href="https://www.facebook.com" target="_blank">Facebook</a> |
             <a href="https://www.instagram.com" target="_blank">Instagram</a> |
             <a href="https://www.twitter.com" target="_blank">Twitter</a>
-    </div>
+    </footer>
 </body>
 </html>
