@@ -186,8 +186,14 @@ footer {
     margin-top: 40px;
 }
 
+
 footer a {
-    color: #100f10;
+    color: #fcf7fc;
+    text-decoration: none;
+}
+
+footer p {
+    color: #fcf7fc;
     text-decoration: none;
 }
 
